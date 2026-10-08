@@ -1,0 +1,3076 @@
+{
+  "0_README": [
+    [
+      "DAY 28 — MONETIZATION MODEL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "AI Pricing · GTM · Evidence — AI-IN-ACTION Track 1",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "QUY ƯỚC MÀU — CHỈ ĐIỀN VÀO Ô MÀU VÀNG",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Ô VÀNG, chữ xanh dương",
+      "Ô bạn phải điền",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Ô XÁM, chữ đen",
+      "Công thức tự tính — KHÔNG SỬA",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Chữ xanh lá",
+      "Link sang tab khác",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Ô XÁM đậm nhạt",
+      "Bảng tham chiếu, chỉ đọc",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "THỨ TỰ LÀM — 6 TRẠM, 120 PHÚT",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 1 · 15'",
+      "Ngân sách khách & định nghĩa Job → điền S1–S2 của tab 1_Cost_Job",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 2 · 20'",
+      "Value Metric → tab 3_Value_Metric",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 3 · 30'",
+      "Cost/Job, giá sàn & giá trần → tab 1_Cost_Job (S3–S8) rồi 2_Pricing",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 4 · 20'",
+      "Kênh phân phối & Affordability Test → tab 4_Channel_Fit",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 5 · 15'",
+      "Pain Moment & 90-Day Plan → tab 5_90Day_Plan",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 6 · 20'",
+      "Evidence Pack & ráp One-Pager → tab 5_90Day_Plan + file .docx",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "3 QUY TẮC KHÔNG ĐƯỢC PHÁ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1. Chia cho số job HOÀN THÀNH, không phải số job đã thử.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "2. HITL và Retry không được để 0 nếu không có lý do viết ra được.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "3. Mọi con số giá API phải có NGÀY kiểm tra (xem tab 6_Benchmarks).",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá tham chiếu trong workbook này được chốt ngày 26/08/2026. Nhiều mức giá là KHUYẾN MẠI CÓ HẠN.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Bạn PHẢI tự mở lại trang giá của nhà cung cấp và cập nhật — đây là một phần của bài tập.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "1_Cost_Job": [
+    [
+      "TAB 1 — COST/JOB CALCULATOR",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 1 (S1–S2) và Trạm 3 (S3–S8). Chỉ điền ô vàng.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S1. ĐỊNH NGHĨA JOB",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1 job của bạn là gì?",
+      "1 nháp cá nhân/bài có ý chính, chỗ chưa hiểu, bài tập và nguồn; loại lỗi/trùng/retry.",
+      null,
+      "Phải là thứ KHÁCH coi là giá trị — không phải '1 request'",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Biến thể HITL: A hay B?",
+      "A",
+      null,
+      "A = khách tự xử lý ca escalate · B = BẠN chịu (outcome/managed)",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S2. KHỐI LƯỢNG",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số job THỬ / tháng",
+      1000,
+      "job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Containment rate (AI tự làm xong)",
+      0.8,
+      null,
+      "Chưa đo → ước tính và ghi rõ",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Số job HOÀN THÀNH / tháng",
+      800,
+      "job",
+      "MẪU SỐ của Cost/Job",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Số job KHÔNG xong / tháng",
+      200,
+      "job",
+      "Số ca phải escalate",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S3. API — LLM",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá input ($ / 1M token)",
+      1,
+      null,
+      "Claude Haiku 4.5 — xem tab 6_Benchmarks",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá output ($ / 1M token)",
+      5,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá cache WRITE ($ / 1M token)",
+      1.25,
+      null,
+      "Anthropic 5-phút = 1,25× input",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá cache READ ($ / 1M token)",
+      0.1,
+      null,
+      "≈ 0,1× input (giảm 90%)",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số lượt (turns) / job",
+      3,
+      "lượt",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Token input CACHE ĐƯỢC / lượt",
+      5000,
+      "token",
+      "System prompt + KB + few-shot",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Token input FRESH / lượt",
+      1000,
+      "token",
+      "Câu hỏi khách + dữ liệu động",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Token output / lượt",
+      800,
+      "token",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Cache write / job",
+      0.00625,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Cache read / job",
+      0.001,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Input fresh / job",
+      0.003,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Output / job",
+      0.012,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ LLM / job — CÓ prompt caching",
+      0.02225,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ LLM / job — KHÔNG cache",
+      0.03,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ % tiết kiệm nhờ caching",
+      0.2583333333333333,
+      null,
+      "Đòn bẩy rẻ nhất bạn có",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Dùng Batch API? (1 = có, 0 = không)",
+      0,
+      null,
+      "Batch giảm 50% — chỉ khi job KHÔNG cần realtime",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ LLM / job sau Batch",
+      0.02225,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S4. API — SPEECH (để 0 nếu sản phẩm không có thoại)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá STT ($ / phút)",
+      0,
+      null,
+      "Deepgram streaming list $0,0077/phút",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số phút audio / job",
+      0,
+      "phút",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá TTS ($ / 1M ký tự)",
+      0,
+      null,
+      "ElevenLabs Flash $50 · Google Standard $4",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số ký tự TTS / job",
+      0,
+      "ký tự",
+      "≈ 900 ký tự cho mỗi phút bot nói",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Speech / job",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S5. INFRA",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Infra / job ($)",
+      0.008,
+      null,
+      "Vector DB, embedding, storage, logging",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Telephony ($ / phút)",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Infra / job",
+      0.008,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S6. RETRY",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Tỷ lệ job phải chạy lại",
+      0.08,
+      null,
+      "ĐỪNG để 0%. Thực tế 5–10% là bình thường",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Retry / job",
+      0.00178,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S7. HITL — người trong vòng lặp",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Chi phí nhân sự ($ / giờ, fully-loaded)",
+      9,
+      null,
+      "Gồm lương + bảo hiểm + quản lý + chỗ ngồi",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "% hội thoại QA nội bộ",
+      0.05,
+      null,
+      "Luôn có, kể cả Biến thể A",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số phút QA / ca",
+      3,
+      "phút",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số phút xử lý 1 ca escalate",
+      6,
+      "phút",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ QA nội bộ / tháng",
+      22.5,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Escalation / tháng (chỉ Biến thể B)",
+      0,
+      null,
+      "Biến thể A → 0 vì khách tự chịu",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Tổng HITL / tháng",
+      22.5,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "S8. OVERHEAD (tuỳ chọn)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "R&D + Sales phân bổ / tháng ($)",
+      50,
+      null,
+      "Để 0 nếu chỉ muốn xem Cost/Job thuần COGS",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "KẾT QUẢ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Chi phí biến đổi / tháng (API + Speech + Infra + Retry)",
+      32.029999999999994,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "HITL / tháng",
+      22.5,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Overhead / tháng",
+      50,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "TỔNG CHI PHÍ / tháng",
+      104.53,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "★ COST/JOB (chưa overhead)",
+      0.06816249999999999,
+      "$/job",
+      "Con số chảy sang tab 2_Pricing",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "★ COST/JOB (có overhead)",
+      0.13066250000000001,
+      "$/job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Tỷ giá (₫ / USD) — giả định",
+      26100,
+      "₫/USD",
+      "Thay bằng tỷ giá thực tế khi làm bài",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Cost/Job quy đổi",
+      1779.0412499999998,
+      "₫/job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "THÀNH PHẦN NÀO ĂN NHIỀU NHẤT? (kiểm tra nhanh)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      22.25,
+      0.21285755285563954,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Speech",
+      0,
+      0,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Infra",
+      8,
+      0.07653305271214006,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Retry",
+      1.7799999999999998,
+      0.01702860422845116,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "HITL",
+      22.5,
+      0.2152492107528939,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Overhead",
+      50,
+      0.47833157945087534,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Nếu LLM chiếm >80% thì gần như chắc chắn bạn đang thiếu chi phí ở S5–S7.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "2_Pricing": [
+    [
+      "TAB 2 — PRICING SANITY CHECK",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 3. Cost/Job tự lấy từ tab 1. Bạn điền giá bán và các con số neo giá.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "GIÁ SÀN",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Cost/Job (từ tab 1_Cost_Job)",
+      0.06816249999999999,
+      "$/job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Hệ số an toàn tối thiểu",
+      3,
+      "×",
+      "Giá bán ≥ 3 × Cost/Job",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ GIÁ SÀN",
+      0.20448749999999996,
+      "$/job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "GIÁ TRẦN — NEO THEO THỨ KHÁCH ĐANG CHI",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá trị khách tiết kiệm được / tháng ($)",
+      800,
+      null,
+      "Neo theo giá trị",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số job / tháng của 1 khách",
+      400,
+      "job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Trần theo giá trị — mức 10%",
+      0.2,
+      "$/job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Trần theo giá trị — mức 25%",
+      0.5,
+      "$/job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Lương / tháng của vị trí bị thay ($)",
+      1000,
+      null,
+      "Neo theo nhân công",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Trần theo nhân công — mức 50%",
+      1.25,
+      "$/job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Trần theo nhân công — mức 70%",
+      1.75,
+      "$/job",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "GIÁ BÁN CỦA BẠN",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "★ Giá bán đề xuất ($ / job)",
+      0.4,
+      "$/job",
+      "Tham chiếu: Intercom Fin $0,99 · Zendesk $1,50",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Bội số so với Cost/Job",
+      5.868329359985331,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ GROSS MARGIN",
+      0.82959375,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Đèn: bội số ≥ 3?",
+      "OK — ĐẠT",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Đèn: Gross Margin",
+      "OK — AN TOÀN (≥60%)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Đèn: GM có cao bất thường?",
+      "OK",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Giá bán nằm trong vùng neo?",
+      "OK — trong vùng giá bán",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "BREAKEVEN CONTAINMENT — ngưỡng sống còn",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Ký hiệu: v = chi phí biến đổi / job thử · q = QA / job thử · e = chi phí 1 ca escalate",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "v — chi phí biến đổi / job thử",
+      0.032029999999999996,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "q — QA nội bộ / job thử",
+      0.022500000000000006,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "e — chi phí 1 ca escalate",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Gross Margin mục tiêu",
+      0.6,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "★ Containment tối thiểu cần đạt",
+      0.34081249999999996,
+      null,
+      "Công thức: R ≥ (v+q+e) / (P×(1−GM)+e)",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Containment hiện tại (từ tab 1)",
+      0.8,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Kết luận",
+      "ĐẠT — mô hình có lãi lành mạnh",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "SENSITIVITY — mô hình gãy ở đâu?",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Containment",
+      "Cost/Job",
+      "Gross Margin",
+      "Đánh giá",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      0.5,
+      0.10906,
+      0.7273499999999999,
+      "An toàn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      0.6,
+      0.09088333333333334,
+      0.7727916666666667,
+      "An toàn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      0.7,
+      0.07790000000000001,
+      0.80525,
+      "An toàn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      0.8,
+      0.0681625,
+      0.82959375,
+      "An toàn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      0.9,
+      0.06058888888888889,
+      0.8485277777777778,
+      "An toàn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      0.95,
+      0.05740000000000001,
+      0.8565,
+      "An toàn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Nhìn cột Gross Margin: mô hình của bạn mong manh đến mức nào khi AI làm sai nhiều hơn dự kiến?",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "5 CON SỐ PHẢI MANG SANG ONE-PAGER",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Cost/Job",
+      0.06816249999999999,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá sàn (3×)",
+      0.20448749999999996,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá bán đề xuất",
+      0.4,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Gross Margin",
+      0.82959375,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Breakeven containment",
+      0.34081249999999996,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "3_Value_Metric": [
+    [
+      "TAB 3 — VALUE METRIC SCORECARD",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 2. Chấm 0 / 1 / 2 điểm cho mỗi câu, theo THỰC TẾ HÔM NAY.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "A. ATTRIBUTION — bạn đo được kết quả là do AI tạo ra không?",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1. Tôi có log đầy đủ mỗi job AI xử lý, gắn được với kết quả cuối cùng",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "2. Tôi có bộ eval đo được tỷ lệ AI làm đúng, có số liệu",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "3. Khách hàng đồng ý với cách tôi định nghĩa 'thành công' của một job",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "4. Tôi phân biệt được kết quả do AI tạo ra với kết quả do yếu tố khác",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "5. Tôi viết được định nghĩa chặt như Intercom: cái gì tính tiền, cái gì không",
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ ĐIỂM ATTRIBUTION (tối đa 10)",
+      1,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "B. AUTONOMY — AI tự chạy hay cần người?",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1. AI hoàn thành job từ đầu đến cuối, không cần người bấm nút giữa chừng",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "2. Job chạy được ngoài giờ hành chính mà không ai trực",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "3. Khi AI không chắc, nó tự chuyển tiếp đúng chỗ — không cần người phân loại",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "4. Tỷ lệ ca phải có người can thiệp dưới 20%",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "5. Người vận hành chỉ kiểm tra mẫu (QA), không xử lý từng ca",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ ĐIỂM AUTONOMY (tối đa 10)",
+      0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "GỢI Ý CỦA MODEL",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Value Metric gợi ý",
+      "SEAT hoặc HYBRID",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Ngưỡng 7/10 là quy ước của bài tập, không phải chuẩn ngành — dùng để buộc bạn ra quyết định, không phải để thay bạn quyết định.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "BENCHMARK NGƯỢC — 2 sản phẩm thật cùng loại job",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Tên sản phẩm",
+      "Value Metric",
+      "Giá công bố",
+      "Link nguồn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Notion Custom Agents",
+      "Hybrid",
+      "$10/1.000 credits; monthly; 08/10/2026",
+      "https://www.notion.com/help/what-are-notion-credits",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Otter Pro",
+      "Seat + quota",
+      "$16,99/user/tháng; monthly; 08/10/2026",
+      "https://otter.ai/pricing",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "QUYẾT ĐỊNH CUỐI",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Value Metric tôi chọn",
+      "Usage",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Nếu KHÁC gợi ý — lý do thị trường là gì?",
+      "SME trả theo số nháp, không theo số học viên; chỉ thử sau khi có bộ đếm job.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Decision Note — câu 1: tôi chọn đơn vị nào?",
+      "Tôi chọn $0,40/nháp hoàn thành, cap 400/tháng; lỗi/retry/sửa không tính thêm.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Decision Note — câu 2: bằng chứng Attribution / Autonomy?",
+      "Attribution 1/10, Autonomy 0/10: chưa eval/log, prototype dựng sẵn; không bán Outcome.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Decision Note — câu 3: mô hình này lỗ trong tình huống nào?",
+      "Lỗ nếu tạo lại không giới hạn hoặc containment thấp; chặn cap, xin phép lượt mới.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "4_Channel_Fit": [
+    [
+      "TAB 4 — CHANNEL FIT & AFFORDABILITY TEST",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 4. Chọn ĐÚNG 1 kênh cho 90 ngày đầu — và chứng minh bằng số.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "A. NGÂN SÁCH CAC — bạn nuôi nổi kênh nào?",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "ARPU / tháng ($)",
+      160,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Gross Margin (từ tab 2_Pricing)",
+      0.82959375,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Phân khúc (SMB / Mid / Enterprise)",
+      "SMB",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ CAC payback cho phép (tháng)",
+      12,
+      "tháng",
+      "Bessemer, Scaling to $100M (2024)",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "★ NGÂN SÁCH CAC / khách",
+      1592.8200000000002,
+      null,
+      "ARPU × GM × số tháng payback",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ ACV (giá trị hợp đồng / năm)",
+      1920,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "B. SALES VIABILITY — một AE phải chốt bao nhiêu deal?",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Quota / AE / năm ($)",
+      75000,
+      null,
+      "Giả định gốc của Tunguz (2016) — thay bằng số thị trường bạn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số ngày làm việc / năm",
+      250,
+      "ngày",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Số deal / AE / năm",
+      39.0625,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "★ Số deal / AE / NGÀY",
+      0.15625,
+      "deal/ngày",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Kết luận Sales-Led",
+      "KHẢ THI về mặt số học",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "C. ĐỐI CHIẾU CAC THỰC TẾ CỦA MOTION CÓ SALES",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Cost per opportunity ($)",
+      1000,
+      null,
+      "ICONIQ 2026 theo phân khúc: $6.300 · $8.000 · $11.200",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Win rate",
+      0.2,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ CAC thực tế ước tính / khách",
+      5000,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "★ Lệch bao nhiêu lần so với ngân sách CAC?",
+      3.1390866513479234,
+      null,
+      "Đây là bằng chứng chọn kênh của bạn",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Kết luận",
+      "KHÔNG KHẢ THI — đi PLG hoặc Partner-Led",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "D. CHẤM ĐIỂM 3 KÊNH (1 = rất kém, 5 = rất tốt)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Tiêu chí",
+      "PLG",
+      "Sales-Led",
+      "Partner-Led",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1. Ngân sách CAC của tôi nuôi nổi kênh này",
+      4,
+      1,
+      2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "2. Khách hàng mục tiêu thực sự mua theo cách này",
+      3,
+      2,
+      2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "3. Đội hiện tại có năng lực chạy kênh này ngay",
+      3,
+      2,
+      1,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "4. Tôi tiếp cận được điểm nhúng / partner trong 30 ngày",
+      2,
+      2,
+      1,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "5. Kênh này đưa tôi đến ĐÚNG Pain Moment",
+      4,
+      3,
+      2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "6. Tôi đo được hiệu quả trong vòng 90 ngày",
+      4,
+      3,
+      2,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ TỔNG ĐIỂM",
+      20,
+      13,
+      10,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Kênh điểm cao nhất",
+      "PLG",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "E. CHỐT KÊNH",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "★ Kênh tôi chọn cho 90 ngày đầu",
+      "PLG",
+      null,
+      "ĐÚNG 1 kênh. Chọn 2 kênh trở lên bị trừ điểm.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Nếu Partner-Led: TÊN CÔNG TY partner",
+      "Không áp dụng",
+      null,
+      "'Các nền tảng trong ngành' = chưa có kênh",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Đã nói chuyện với họ chưa? (Rồi / Chưa)",
+      "Chưa",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Bạn mang lại giá trị gì cho partner?",
+      "Chưa có partner; không giả định quyền VLearn.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Nếu rơi vào vùng không khả thi — lối thoát nào?",
+      "Thử self-service nhỏ; đo CAC, dừng nếu chưa có kênh nhập dữ liệu.",
+      null,
+      "Giảm giá để tự phục vụ / tăng giá + service / Partner-Led",
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "5_90Day_Plan": [
+    [
+      "TAB 5 — PAIN MOMENT · 90-DAY PLAN · EVIDENCE PACK",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Trạm 5 và Trạm 6.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "A. PAIN MOMENT — phải đủ 3 phần",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "MẤY GIỜ khách đau nhất?",
+      "21:30 (giả thuyết)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Lúc đó họ ĐANG LÀM GÌ?",
+      "Học xong, gom ghi chú để làm lab hôm sau.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Họ đang DÙNG APP / KÊNH NÀO?",
+      "VLearn và tab ghi chú.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "→ Điểm nhúng cụ thể của bạn",
+      "Đề xuất sidebar bài VLearn; chưa có quyền/API; pilot nhập transcript có phép.",
+      null,
+      "Một bề mặt tích hợp có tên, không phải 'website của chúng tôi'",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "B. 90-DAY PLAN",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      "THÁNG 1 — Học",
+      "THÁNG 2–3 — Đòn bẩy",
+      "THÁNG 4+ — Mở rộng",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Kênh sử dụng",
+      "PLG - học quy trình",
+      "PLG - self-service",
+      "PLG - có điều kiện",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Mục tiêu số khách",
+      "2 SME pilot (chưa tuyển)",
+      "5 SME trả phí (mục tiêu)",
+      "10 SME nếu qua gate",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Việc cụ thể 1",
+      "Phỏng vấn buyer + đo ghi chú thủ công.",
+      "Onboarding nhập transcript có phép.",
+      "Mở 1 ngách đào tạo gần.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Việc cụ thể 2",
+      "Eval 50 ca; token, retry, QA, thời gian.",
+      "Meter jobID; cap 400; đơn giá rõ.",
+      "Kiểm tra retention trước mở.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Việc cụ thể 3",
+      "Xác minh bề mặt VLearn; không coi đã tích hợp.",
+      "Thử acquisition $200/5 paid (giả định).",
+      "Giữ 1 kênh; chưa chạy Sales/Partner.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "KPI đo được",
+      "50 ca; đo completion, đúng nguồn; chưa có tỷ lệ.",
+      ">=80% job đạt; 5 paid; CAC/payback thực.",
+      "Chỉ mở nếu GM đầy đủ>=60%, có retention.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Người chịu trách nhiệm",
+      "Viên - 07/11/2026",
+      "Viên - 07/01/2027",
+      "Viên - xét 08/01/2027",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Tháng 1 là giai đoạn HỌC, không phải scale. Kế hoạch 'tháng 1 lấy 200 khách ở 5 ngành' là kế hoạch chưa ai từng thử làm.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "C. EVIDENCE PACK — 3 tài sản bán hàng",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Tài sản",
+      "Đã có? (Rồi/Chưa)",
+      "Nội dung 1 câu — hoặc việc cần làm",
+      "Người phụ trách · Deadline",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1. Eval Results ",
+      "Chưa có eval live",
+      "Bộ 50 ca + rubric + đo cost; xem eval-plan.md",
+      "Viên - 22/10/2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "2. Risk Checklist ",
+      "Có bản Q&A dự thảo",
+      "Sai nguồn, data training, xuất/xóa; controls chưa triển khai.",
+      "Viên - 15/10/2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "3. Pilot Report",
+      "Chưa chạy pilot",
+      "2 SME; 2 tuần; đo thời gian/cost; chưa tuyển.",
+      "Viên - 06/11/2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Ô nào CHƯA CÓ thì ghi deadline — đừng bỏ trống. Thành thật về khoảng trống được điểm cao hơn bịa nội dung.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "D. BÀI TEST NGƯỜI LẠ — nhóm khác đọc One-Pager trong 2 phút",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Họ trả lời được: bán gì, cho ai, tính tiền theo đơn vị nào? (Được/Không)",
+      "Chưa test - 10/10/2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Họ trả lời được: có lãi trên mỗi đơn vị không, số nào chứng minh? (Được/Không)",
+      "Chưa test - 10/10/2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Họ trả lời được: tiếp cận khách qua đâu, vì sao kênh đó? (Được/Không)",
+      "Chưa test - 10/10/2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Số câu họ phải hỏi lại (mục tiêu ≤ 3)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "6_Benchmarks": [
+    [
+      "TAB 6 — BENCHMARKS (CHỈ ĐỌC)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Giá chốt ngày 26/08/2026. Dòng có ⏳ là GIÁ KHUYẾN MẠI CÓ HẠN — phải kiểm tra lại.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NGÀY BẠN KIỂM TRA LẠI GIÁ",
+      "08/10/2026; nguồn hiện hành xem assumptions-and-sources.md",
+      null,
+      "Bắt buộc điền — Rubric có chấm mục này",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Nhóm",
+      "Mục",
+      "Giá",
+      "Đơn vị",
+      "Nguồn",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "Claude Opus 5 — input / output",
+      "5,00 / 25,00",
+      "$ / 1M token",
+      "platform.claude.com/docs/en/about-claude/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "Claude Sonnet 5 — input / output",
+      "2,00 / 10,00",
+      "$ / 1M token",
+      "platform.claude.com/docs/en/about-claude/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "Claude Haiku 4.5 — input / output",
+      "1,00 / 5,00",
+      "$ / 1M token",
+      "platform.claude.com/docs/en/about-claude/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "Claude — cache write 5' / cache read",
+      "1,25× / 0,10× input",
+      "hệ số",
+      "platform.claude.com/docs/en/about-claude/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "⏳ OpenAI GPT-5.6 Sol — input / output",
+      "4,00 / 20,00",
+      "$ / 1M token",
+      "developers.openai.com/api/docs/pricing (KM 21/08–21/11/2026; list 5,00/30,00)",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "OpenAI GPT-5.6 Luna — input / output",
+      "0,20 / 1,20",
+      "$ / 1M token",
+      "developers.openai.com/api/docs/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "OpenAI — cached input / Batch API",
+      "10% input / −50%",
+      "hệ số",
+      "developers.openai.com/api/docs/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "Gemini 3.1 Pro — input / output (≤200k)",
+      "2,00 / 12,00",
+      "$ / 1M token",
+      "ai.google.dev/gemini-api/docs/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "LLM",
+      "⏳ Gemini 3.7 Flash — input / output",
+      "0,75 / 3,75",
+      "$ / 1M token",
+      "ai.google.dev/gemini-api/docs/pricing (KM đến 31/12/2026; sau đó 1,50/7,50)",
+      null,
+      null,
+      null
+    ],
+    [
+      "STT",
+      "Deepgram Nova-3 — pre-recorded",
+      "0,0043",
+      "$ / phút",
+      "deepgram.com/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "STT",
+      "⏳ Deepgram Nova-3 — streaming",
+      "list 0,0077 · KM 0,0048",
+      "$ / phút",
+      "deepgram.com/pricing — đang khuyến mại, kiểm tra lại",
+      null,
+      null,
+      null
+    ],
+    [
+      "STT",
+      "AssemblyAI Universal-2 — async",
+      "0,0025",
+      "$ / phút",
+      "assemblyai.com/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "STT",
+      "OpenAI gpt-4o-mini-transcribe",
+      "0,0030",
+      "$ / phút",
+      "developers.openai.com/api/docs/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "TTS",
+      "Google Cloud TTS — Standard",
+      "4,00",
+      "$ / 1M ký tự",
+      "cloud.google.com/text-to-speech/pricing (rẻ nhất)",
+      null,
+      null,
+      null
+    ],
+    [
+      "TTS",
+      "OpenAI tts-1",
+      "15,00",
+      "$ / 1M ký tự",
+      "developers.openai.com/api/docs/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "TTS",
+      "ElevenLabs Flash / Turbo",
+      "50,00",
+      "$ / 1M ký tự",
+      "elevenlabs.io/pricing/api",
+      null,
+      null,
+      null
+    ],
+    [
+      "TTS",
+      "ElevenLabs v3 / v2 Multilingual",
+      "100,00",
+      "$ / 1M ký tự",
+      "elevenlabs.io/pricing/api",
+      null,
+      null,
+      null
+    ],
+    [
+      "Quy đổi",
+      "Tốc độ nói",
+      "≈ 900",
+      "ký tự / phút",
+      "≈150 từ/phút — dùng để đổi phút ↔ ký tự",
+      null,
+      null,
+      null
+    ],
+    [
+      "Lưu ý",
+      "Google TTS — ký tự CJK",
+      "tính là 1 ký tự",
+      "—",
+      "cloud.google.com/text-to-speech/pricing (KHÔNG phải ×2)",
+      null,
+      null,
+      null
+    ],
+    [
+      "Lưu ý",
+      "Google STT — tính theo kênh",
+      "4 kênh × 120s = 480s",
+      "—",
+      "cloud.google.com/speech-to-text/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "Lưu ý",
+      "Streaming vs async STT",
+      "1× đến ~5×",
+      "hệ số",
+      "Tuỳ nhà cung cấp — AssemblyAI 1,0× · Google ~5×. Đừng dùng hệ số chung",
+      null,
+      null,
+      null
+    ],
+    [
+      "Sản phẩm",
+      "Intercom Fin — resolution",
+      "0,99",
+      "$ / outcome",
+      "fin.ai/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "Sản phẩm",
+      "Intercom Fin — qualification (sales)",
+      "9,99",
+      "$ / outcome",
+      "fin.ai/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "Sản phẩm",
+      "Zendesk — automated resolution",
+      "1,50",
+      "$ / resolution",
+      "zendesk.com/blog/ai/agentic-ai/outcome-based-pricing/ (blog, không trên trang giá)",
+      null,
+      null,
+      null
+    ],
+    [
+      "Sản phẩm",
+      "Salesforce Agentforce — Flex Credit",
+      "0,005 (action = 0,10)",
+      "$ / credit",
+      "salesforce.com/agentforce/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "Sản phẩm",
+      "Salesforce Agentforce — conversation",
+      "2,00",
+      "$ / conversation",
+      "salesforce.com/agentforce/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "Sản phẩm",
+      "GitHub Copilot — AI Credit",
+      "0,01",
+      "$ / credit",
+      "docs.github.com/en/copilot/get-started/plans",
+      null,
+      null,
+      null
+    ],
+    [
+      "Sản phẩm",
+      "GitHub Copilot Business / Enterprise",
+      "19 / 39",
+      "$ / seat / tháng",
+      "docs.github.com/en/copilot/get-started/plans",
+      null,
+      null,
+      null
+    ],
+    [
+      "Sản phẩm",
+      "Notion — Business / credits",
+      "20 / 10 per 1.000",
+      "$ / member / tháng",
+      "notion.com/pricing",
+      null,
+      null,
+      null
+    ],
+    [
+      "Benchmark",
+      "Gross Margin AI-native 2026E",
+      "≈ 53%",
+      "%",
+      "ICONIQ, 2026 State of AI: The Builder's Economy (07/2026)",
+      null,
+      null,
+      null
+    ],
+    [
+      "Benchmark",
+      "Gross Margin cloud (middle 50%)",
+      "60 – 80%",
+      "%",
+      "Bessemer, Scaling to $100 Million (2024)",
+      null,
+      null,
+      null
+    ],
+    [
+      "Benchmark",
+      "Vertical AI — GM / model cost",
+      "≈65% / ≈10% doanh thu",
+      "%",
+      "Bessemer, State of the Cloud 2024",
+      null,
+      null,
+      null
+    ],
+    [
+      "Benchmark",
+      "CAC payback SMB / Mid / Enterprise",
+      "12 / 18 / 24",
+      "tháng",
+      "Bessemer, Scaling to $100 Million (2024)",
+      null,
+      null,
+      null
+    ],
+    [
+      "Benchmark",
+      "LTV : CAC",
+      "≥ 3×",
+      "lần",
+      "David Skok, SaaS Metrics 2.0 (cập nhật 06/2026)",
+      null,
+      null,
+      null
+    ],
+    [
+      "Benchmark",
+      "Cost per opportunity 2026 (theo phân khúc)",
+      "6.300 · 8.000 · 11.200",
+      "$",
+      "ICONIQ, State of GTM 2026 (tr.22)",
+      null,
+      null,
+      null
+    ],
+    [
+      "Benchmark",
+      "ACV sàn cho inside sales",
+      "≈ 3.000",
+      "$ / năm",
+      "Tomasz Tunguz (2016) — có kèm giả định để tính lại",
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Lưu ý: trang marketing của nhà cung cấp có thể hiển thị giá cũ hơn trang docs. Ưu tiên trang docs / pricing chính thức.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}
