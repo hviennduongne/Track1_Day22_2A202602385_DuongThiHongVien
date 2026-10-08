@@ -54,3 +54,6 @@ Trong repo Day22 độc lập này, chạy các builder từ thư mục gốc. C
 Xem [Channel Evidence](evidence/channel-evidence.md), [truy số One-Pager](evidence/number-traceability.md) và [trạng thái nộp đã xác nhận](submission-status.md). Benchmark CPO ICONIQ2026 đã được bổ sung; file cuối đã tính lại và kiểm tra. Live eval/pilot là kế hoạch đúng trạng thái prototype. Human stranger test cần kết quả thực tế, chưa thay bằng AI critique.
 
 [Eval Results hiện trạng](evidence/eval-results.md) tách kiểm tra mô hình tài chính đã chạy khỏi quality eval chưa chạy.
+
+## Bài tham khảo theo ngôi học viên
+[Đọc bài tham khảo hoàn chỉnh](bai-tham-khao-hoan-chinh.md): cách giải thích cả bốn block, trao đổi người lạ trong tình huống tham khảo, sửa sau phản hồi, AI Log và Reflection. Không thay các kết quả kiểm thử thực tế trong hồ sơ bằng lời trao đổi được xây dựng.
