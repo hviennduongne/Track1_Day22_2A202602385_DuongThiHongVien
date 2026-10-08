@@ -1,5 +1,7 @@
 # Rà soát cuối - 08/10/2026
 
+**Trạng thái mới nhất:** repo đã push GitHub; VLearn hiển thị bài nộp BN-261008-39238, nộp đúng hạn. Những dòng “chưa push/chưa submit” phía dưới là ghi chép ở thời điểm trước khi xác nhận, không phải trạng thái hiện tại. Kiểm tra cuối: qa/final-submission-check.json, 334 mục PASS về file. Test người lạ chưa có kết quả; không đánh dấu đạt toàn bộ rubric.
+
 Codex trực tiếp triển khai theo yêu cầu không dùng Antigravity. Đã đọc file cuối và nguồn, không dựa vào lời worker.
 
 Đã kiểm tra: đủ7sheet,93côngthức giữ nguyên; dữliệu ngoài inputvàng khôngđổi; validation/conditionalformatting/merges/freeze vàstyles ngoàiphầnwrap choôvàng được giữ. Chiềucaochỉđổi dòngcó inputtext. OriginalOOXML được giữ để khôngmất featurekhi export; cacheformula vàinput từartifact-tool đã authorđược chuyểnvào. Không author bằngopenpyxl.
