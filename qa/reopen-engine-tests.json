@@ -1,0 +1,68 @@
+{
+  "engine": "artifact-tool; disposable in-memory copy, no saved mutation",
+  "rows": [
+    {
+      "label": "reopen baseline cost",
+      "actual": 0.06816249999999999,
+      "expected": 0.0681625,
+      "result": "PASS"
+    },
+    {
+      "label": "reopen baseline CAC",
+      "actual": 1592.8200000000002,
+      "expected": 1592.82,
+      "result": "PASS"
+    },
+    {
+      "label": "no-cache equivalent LLM",
+      "actual": 0.03,
+      "expected": 0.03,
+      "result": "PASS"
+    },
+    {
+      "label": "no-cache direct",
+      "actual": 0.078625,
+      "expected": 0.078625,
+      "result": "PASS"
+    },
+    {
+      "label": "half-volume fullcost",
+      "actual": 0.19316250000000001,
+      "expected": 0.1931625,
+      "result": "PASS"
+    },
+    {
+      "label": "half-volume CACbudget",
+      "actual": 796.4100000000001,
+      "expected": 796.41,
+      "result": "PASS"
+    },
+    {
+      "label": "zero-winrate-invalid",
+      "actual": [
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          "Motion có sales KHẢ THI"
+        ]
+      ],
+      "note": "Template zero guard hides undefined CAC. Input invalid; do not use zero as proof sales is affordable."
+    },
+    {
+      "label": "blank-completion-invalid",
+      "actual": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "note": "No valid completion input; economic result undefined."
+    }
+  ]
+}
