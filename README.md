@@ -8,6 +8,7 @@ Bài Ngày 6 trên VLearn có tên Day22-AI-Product-GTM-Slide. Tôi kế thừa 
 
 - [Excel model](output/DuongThiHongVien_Day22_model.xlsx): đủ 7 sheet của mẫu, gồm 5 tab làm bài, README và benchmark lịch sử. Nội dung chỉ thay trong ô vàng; giữ 93 công thức. Chỉnh wrap/chiều cao cục bộ để chữ đọc được.
 - [Monetization One-Pager](output/DuongThiHongVien_Day22_onepager.pdf): một trang, có số, lý do, ô nguồn, pain, plan và evidence.
+- [Đối chiếu đầy đủ yêu cầu và sáu mốc Pass/Fail](requirements-audit.md).
 - [AI Log](ai-log.md) và [Reflection](reflection.md): ngôi thứ nhất, có nguồn và giới hạn hoạt động thực tế.
 - [Hai lượt critique](critique-log.md): prompt tiếng Anh, phản hồi tiếng Việt, bảng quyết định.
 - [Nguồn và giả định](assumptions-and-sources.md): giá API hiện hành, rationale từng input và chi phí chưa đo.
@@ -38,11 +39,13 @@ Node và Python dùng runtime bundled của Codex. `build_model.mjs` dùng artif
 Lệnh đã chạy trong thư mục repo:
 
 ```powershell
-& 'C:/Users/ACER/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' day22/prepare_layout.py
-& 'C:/Users/ACER/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe' day22/build_model.mjs
-& 'C:/Users/ACER/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' day22/finalize.py
-& 'C:/Users/ACER/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe' day22/verify_model.mjs
+& 'C:/Users/ACER/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' prepare_layout.py
+& 'C:/Users/ACER/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe' build_model.mjs
+& 'C:/Users/ACER/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' finalize.py
+& 'C:/Users/ACER/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe' verify_model.mjs
 ```
 
-Trong repo Day22 độc lập này, chạy các builder từ thư mục gốc và bỏ tiền tố day22/ trong các lệnh tái kiểm tra ở trên. Cần liên kết node_modules tới runtime bundled có @oai/artifact-tool trước khi chạy Node.
+Trong repo Day22 độc lập này, chạy các builder từ thư mục gốc. Cần liên kết node_modules tới runtime bundled có @oai/artifact-tool trước khi chạy Node.
+
+
 

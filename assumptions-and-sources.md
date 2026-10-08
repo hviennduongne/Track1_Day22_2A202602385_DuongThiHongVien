@@ -15,7 +15,7 @@ Dương Thị Hồng Viên - 2A202602385. Ngày kiểm tra nguồn: 08/10/2026. 
 | [Template Drive](https://drive.google.com/drive/folders/1lAN_fxwtTr1fOHm1SoPR7OH3F0Z8D5Ya) | templates/model.xlsx,onepager.docx | Mẫu gốc được giữ nguyên. TitleDAY28 trong Excel là nội dung có sẵn, không sửa ô ngoài phạm vi. |
 | ../README.md, ../prototype/option-b.js, ../group-feedback-synthesis.md | Hiện trạng sản phẩm | OptionB canned text, không gọi model; Huy/Vũ chọnB, Dũng chọnC theo hồ sơ cũ. Đây là usability, không phải WTP, chất lượngLLM hay containment. Không chạy lại phỏng vấn trong lần này. |
 
-Giá và thông tin trong tab6_Benchmarks của mẫu là bảng lịch sử, có thể lỗi thời. Chỉ ô vàngB3 cập nhật ngày/đường dẫn ledger. Không sử dụng các dòng lịch sử không được kiểm tra làm báo giá hiện hành. Tỷ giáVietcombank không lấy được bảngUSD đủ chắc chắn, nên B68=26000 chỉ là tỷ giá kế hoạch, không phải tỷ giá ngày08/10/2026.
+Giá và thông tin trong tab6_Benchmarks của mẫu là bảng lịch sử, có thể lỗi thời. Chỉ ô vàngB3 cập nhật ngày/đường dẫn ledger. Không sử dụng các dòng lịch sử không được kiểm tra làm báo giá hiện hành. FX cập nhật từ XML chính thức Vietcombank: USD bán ra 26.100 VND, nguồn ghi 08/10/2026 22:46:03. Chọn bán ra vì dự kiến mua USD để thanh toán API. [Nguồn XML](https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx).
 
 ## Định nghĩa job và phạm vi
 
@@ -37,7 +37,7 @@ B9 là số job được bắt đầu lần đầu; retry cùngjob không tăng 
 | B46 | 8% | Ước tính chưa đo, trong5-10% gợi ýlab. PhầnLLM cần thêm ngân sách retry; không phải8% trong dữ liệu đã test. |
 | B50:B53 | $9/h;5%;3phút;6phút | QA50ca/tháng mất150phút=$22,50. Mức công và sốphút đều giả định.6phút dùng cho sensitivityB, baselineA không cộng escalation của khách. |
 | B59 | $50/tháng | Chi phí tăng thêm thử nghiệm: R&D/eval định kỳ30 + hỗ trợ/vận hành20. Không gồm lương toàn đội, chi phí phát triển ban đầu hay toàn bộ startup. Không tuyên bố lợi nhuận ròng công ty. |
-| B68 | 26000VND/USD | Tỷ giá quy hoạch, chưa xác minh live. Quyết định dùngUSD, không dựa vàoVND. |
+| B68 | 26100 VND/USD | Vietcombank USD bán ra ngày 08/10/2026, timestamp nguồn 22:46:03. Các quyết định kinh tế trong bài tính USD. |
 
 Phí thanh toán chưa có provider/báo giá, thuế chưa có cấu trúc pháp nhân; không tính vào COGS theo một giá tự bịa. QA có sensitivity3%doanhthu cho phí giả định: full margin64,3344% thay67,3344%. Nếu thương mại hóa phải cộng actualpaymentfee, support ngoài dự toán và trả phí hạ tầng tối thiểu. Chi phí gồm overhead trong bài nghĩa là gồm overhead50USD nêu trên, không phải fully loaded mọi chi phí công ty.
 
@@ -68,3 +68,4 @@ Attribution B5:B9=0/0/0/0/1: mới có định nghĩa tính phí bằng lời, c
 CACbudget=ARPU*directGM*12tháng theo mẫu. Trừoverhead trước khi tính thì budget=$1292,82; gapSales=3,867x, không tốt hơn. PLG giả định chi acquisition200/5paid=$40, không CACobserved. CPO giảm50giờ xuống10giờ =>400/20%=CAC2000, vẫn>1592,82; nếuCPO<318,564 thìSales mới qua affordability ởwin20%. Không kết luậnSales vĩnhviễn khôngkhảthi. Không córetention nên chưa tínhLTV:CAC.
 
 Tất cả số khách, giờpain21:30, ngàydeadline,50evalcases,2tuầnpilot,goals80%/60% vàcap đều là kế hoạch củaViên, gắn ô5_90Day_Plan. Chi tiết bảngmetric-score-rationale, plan và evidence nằm trongREADME/evidence. Không giả định Minh đã nhận phân côngmới. Không cóhumanstrangertest trong lần này.
+

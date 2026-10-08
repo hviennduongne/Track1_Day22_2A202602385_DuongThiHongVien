@@ -13,3 +13,5 @@ Lỗiđãsửa thật: comparisonobjectconditionalformatting không phùhợp; l
 AIlog/Reflection ngôithứnhất có acknowledgmentAIhỗtrợ,2promptEnglish critique córesponseVietnamese vàdecision. Sourceledger phânbiệtgiáofficialvớiinputước tính. DòngARPU160 làfullutilization,khôngclaimedpaid. Eval80%,buyerSME,pain21:30,vendorcontrol vàVLearnintegration đều ghiassumption/planned. Minh khôngđượcgánđónggópmới.
 
 Giới hạn: không chạyExcel desktop; chưa modelAPI/evalquality/pilotpaid; chưahumanstrangertest; chưacommit/push/deploy/submission. Không chấmđiểm rubric. Dataset vàphí thực/côngonboarding códeadline/plan; khôngkhai thay bằngusability3tester.
+
+Cập nhật lượt rà soát đầy đủ: bản đầu đã push GitHub. Lượt này cập nhật FX B68=26100 từ XML Vietcombank, chạy lại builder, finalize (2725 kiểm tra, 93 công thức, PDF một trang), reopen tests và xem ảnh Cost/PDF. requirements-audit.md ghi sáu mốc, các phần chưa đạt không được biến thành PASS. VLearn chưa submit.

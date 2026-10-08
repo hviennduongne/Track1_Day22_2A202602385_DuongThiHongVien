@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "checks_count": 2724,
+  "checks_count": 2725,
   "formulas_preserved": 93,
   "changed_inputs": [
     "1_Cost_Job!B5",
@@ -12,6 +12,7 @@
     "1_Cost_Job!B41",
     "1_Cost_Job!B52",
     "1_Cost_Job!B59",
+    "1_Cost_Job!B68",
     "2_Pricing!B10",
     "2_Pricing!B11",
     "2_Pricing!B14",

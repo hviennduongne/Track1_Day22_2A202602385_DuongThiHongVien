@@ -57,3 +57,5 @@ PDF có một trang, trích được tên/MSSV và đã render để xem chữ t
 ## Phần còn thiếu của tôi
 
 Tôi đã viết kế hoạch eval 50 ca, Q&A mua hàng, pilot hai SME và phiếu test người lạ có người phụ trách/deadline. Đây là tài liệu chuẩn bị, chưa phải kết quả. Phiên nhóm khác đọc One-Pager hai phút chưa diễn ra, nên tôi không tự tích “Được” hoặc ghi số câu hỏi lại bằng 0. Sau khi có người đọc thật, tôi sẽ ghi nguyên ý họ trả lời, sửa chỗ hiểu sai và cập nhật workbook.
+## Rà soát sau khi nhận toàn bộ yêu cầu
+Tôi kiểm lại sáu mốc và ghi riêng requirements-audit.md. Tôi cập nhật tỷ giá từ XML Vietcombank, thay 26.000 bằng giá USD bán ra 26.100 VND. Các kết quả USD không đổi. Live eval, benchmark CPO đúng buyer và test người lạ chưa có kết quả thực tế nên tôi giữ trạng thái chưa đạt.
