@@ -9,3 +9,5 @@ AI giúp ích khi đọc công thức, tìm điều kiện cache, phản biện 
 Tôi cũng nhận ra khoảng cách giữa người dùng và người trả tiền. Những người thử prototype cũ giúp tôi hiểu cách dùng, chưa cho biết trưởng đào tạo SME có ngân sách hay không. Con số tiết kiệm 20 phút và 80% completion cần được đo lại. Tôi chưa có bằng chứng để hứa tăng kết quả học tập hoặc gọi VLearn là đối tác.
 
 Nếu tiếp tục, tôi ưu tiên test người lạ và một pilot nhỏ trước. Tôi muốn biết họ có hiểu mình bán gì, có dùng lại nháp và có đồng ý trả theo job không. Tôi đã chuẩn bị phiếu và deadline, nhưng để phần kết quả trống khi chưa thực hiện. Tôi thấy cách ghi này dễ bảo vệ bài hơn một báo cáo có đủ số đẹp mà không giải thích được lấy ở đâu.
+
+Sau lượt hoàn thiện, tôi thấy một lỗi dễ mắc là đọc nhầm màu năm của biểu đồ benchmark. Tôi xem lại trang gốc thay vì lấy số từ đoạn search. Benchmark quốc tế giúp stress test ngân sách CAC, nhưng vẫn cần dữ liệu khách Việt Nam. AI hỗ trợ tìm nguồn, kiểm công thức và chỉ ra khoảng trống; phần test người lạ và pilot cần người thật, không thể đổi tên một phản hồi AI thành bằng chứng thị trường.

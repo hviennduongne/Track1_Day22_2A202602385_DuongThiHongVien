@@ -15,3 +15,5 @@ AIlog/Reflection ngôithứnhất có acknowledgmentAIhỗtrợ,2promptEnglish c
 Giới hạn: không chạyExcel desktop; chưa modelAPI/evalquality/pilotpaid; chưahumanstrangertest; chưacommit/push/deploy/submission. Không chấmđiểm rubric. Dataset vàphí thực/côngonboarding códeadline/plan; khôngkhai thay bằngusability3tester.
 
 Cập nhật lượt rà soát đầy đủ: bản đầu đã push GitHub. Lượt này cập nhật FX B68=26100 từ XML Vietcombank, chạy lại builder, finalize (2725 kiểm tra, 93 công thức, PDF một trang), reopen tests và xem ảnh Cost/PDF. requirements-audit.md ghi sáu mốc, các phần chưa đạt không được biến thành PASS. VLearn chưa submit.
+
+Lượt hoàn thiện: bổ sung Channel B42 benchmark CPO gốc, Plan B14 driver20phút/$6h, C15 retry controls. Rebuild/reopen tests PASS; PDF vẫn1trang và đã xem không tràn. VLearn có bài nộp đúngrepo, mãBN-261008-39238. Không gọi rating5/5 là điểm rubric. Human stranger test chưa có.

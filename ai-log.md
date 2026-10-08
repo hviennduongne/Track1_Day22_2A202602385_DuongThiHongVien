@@ -59,3 +59,6 @@ PDF có một trang, trích được tên/MSSV và đã render để xem chữ t
 Tôi đã viết kế hoạch eval 50 ca, Q&A mua hàng, pilot hai SME và phiếu test người lạ có người phụ trách/deadline. Đây là tài liệu chuẩn bị, chưa phải kết quả. Phiên nhóm khác đọc One-Pager hai phút chưa diễn ra, nên tôi không tự tích “Được” hoặc ghi số câu hỏi lại bằng 0. Sau khi có người đọc thật, tôi sẽ ghi nguyên ý họ trả lời, sửa chỗ hiểu sai và cập nhật workbook.
 ## Rà soát sau khi nhận toàn bộ yêu cầu
 Tôi kiểm lại sáu mốc và ghi riêng requirements-audit.md. Tôi cập nhật tỷ giá từ XML Vietcombank, thay 26.000 bằng giá USD bán ra 26.100 VND. Các kết quả USD không đổi. Live eval, benchmark CPO đúng buyer và test người lạ chưa có kết quả thực tế nên tôi giữ trạng thái chưa đạt.
+
+## Hoàn thiện bản nộp
+Tôi tìm được nguồn CPO gốc ICONIQ2026 và xem biểu đồ trang22 để phân biệt2025 với2026. SMB2026 là6300USD/opportunity. Tôi giữ kịch bản địa phương1000USD là giả định và thêm so sánh benchmark, không lấy dữ liệu quốc tế làm chi phí thật của mình. Tôi bổ sung driver tiết kiệm và retry control vào ô input text để truy lại số trên PDF. Tôi chạy lại model và xem PDF vẫn một trang. Khi mở mục nộp VLearn, trang đã có mãBN-261008-39238 và đúng linkrepo; tôi chỉ xác nhận, không tự nhận đã bấm nộp trong lượt này. Test người lạ chưa có kết quả.

@@ -69,3 +69,6 @@ CACbudget=ARPU*directGM*12tháng theo mẫu. Trừoverhead trước khi tính th
 
 Tất cả số khách, giờpain21:30, ngàydeadline,50evalcases,2tuầnpilot,goals80%/60% vàcap đều là kế hoạch củaViên, gắn ô5_90Day_Plan. Chi tiết bảngmetric-score-rationale, plan và evidence nằm trongREADME/evidence. Không giả định Minh đã nhận phân côngmới. Không cóhumanstrangertest trong lần này.
 
+
+## Bổ sung nguồn Channel Evidence
+Đã đọc và xem trang22 báo cáo gốc ICONIQ State of GTM 2026: CPO SMB average $6300, năm2026, khảo sát GTM executives N=143 toàn mẫu. URL và phạm vi trong evidence/channel-evidence.md. Không dùng $5200 của2025 làm2026. Channel B42 ghi benchmark, CPO1000 tạiB20 vẫn là giả định địa phương để giữ phép đối chiếu. Plan B14 ghi20phút/$6h; Plan C15 ghi3attempt. Xem evidence/number-traceability.md cho toàn bộ số One-Pager.

@@ -2310,7 +2310,7 @@
     ],
     [
       "Nếu rơi vào vùng không khả thi — lối thoát nào?",
-      "Thử self-service nhỏ; đo CAC, dừng nếu chưa có kênh nhập dữ liệu.",
+      "PLG nhỏ; ICONIQ 2026 p22: SMB CPO $6300, /20%=CAC $31500, 19,78x budget; không phải SME VN. Xem channel-evidence.md.",
       null,
       "Giảm giá để tự phục vụ / tăng giá + service / Partner-Led",
       null,
@@ -2452,7 +2452,7 @@
     ],
     [
       "Việc cụ thể 1",
-      "Phỏng vấn buyer + đo ghi chú thủ công.",
+      "Phỏng vấn buyer; kiểm giả định 20 phút/job x $6/giờ x400=$800/tháng.",
       "Onboarding nhập transcript có phép.",
       "Mở 1 ngách đào tạo gần.",
       null,
@@ -2463,7 +2463,7 @@
     [
       "Việc cụ thể 2",
       "Eval 50 ca; token, retry, QA, thời gian.",
-      "Meter jobID; cap 400; đơn giá rõ.",
+      "Meter jobID; cap400 completed; tối đa3 attempt/job (2 retry); giá$0,40.",
       "Kiểm tra retention trước mở.",
       null,
       null,

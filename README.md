@@ -30,7 +30,7 @@ Mẫu có guard trả0 khi denominator không hợp lệ; đây là chi phí/CAC
 
 Test người lạ: Viên dự kiến10/10/2026, chưa chạy, số câu hỏi lại đểtrống. Eval22/10, xác minhQ&A15/10, pilotreport06/11 đều là kế hoạch. Không tự đánh giá bài100điểm hoặc tuyênbố đạt rubric đãchấm.
 
-Repo cần nộp tên `Track1_Day22_2A202602385_DuongThiHongVien`. Repo GitHub: https://github.com/hviennduongne/Track1_Day22_2A202602385_DuongThiHongVien. Chưa submit link lên VLearn; test người lạ vẫn chưa thực hiện. Khi xuất gói nộp, giữhai filemodel/onepager,log,reflection,nguồn,critique,evidence vàQA; không đưa node_modules hoặc template chưa điền làm bài chính.
+Repo cần nộp tên `Track1_Day22_2A202602385_DuongThiHongVien`. Repo GitHub: https://github.com/hviennduongne/Track1_Day22_2A202602385_DuongThiHongVien. VLearn đã hiển thị bài nộp BN-261008-39238 lúc15:38:09 ngày08/10/2026, đúng linkrepo, Nộp đúng hạn; lượt này chỉ xác nhận trạng thái đã có. Test người lạ vẫn chưa thực hiện. Khi xuất gói nộp, giữhai filemodel/onepager,log,reflection,nguồn,critique,evidence vàQA; không đưa node_modules hoặc template chưa điền làm bài chính.
 
 ## Cách tái kiểm tra
 
@@ -49,3 +49,8 @@ Trong repo Day22 độc lập này, chạy các builder từ thư mục gốc. C
 
 
 
+
+## Bản hoàn thiện
+Xem [Channel Evidence](evidence/channel-evidence.md), [truy số One-Pager](evidence/number-traceability.md) và [trạng thái nộp đã xác nhận](submission-status.md). Benchmark CPO ICONIQ2026 đã được bổ sung; file cuối đã tính lại và kiểm tra. Live eval/pilot là kế hoạch đúng trạng thái prototype. Human stranger test cần kết quả thực tế, chưa thay bằng AI critique.
+
+[Eval Results hiện trạng](evidence/eval-results.md) tách kiểm tra mô hình tài chính đã chạy khỏi quality eval chưa chạy.
